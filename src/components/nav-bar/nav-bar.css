@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    border: rgba(195, 195, 195, 0.229) 0.1px solid;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    gap: -50px;
+}
+
+a {
+    text-align: center;
+    color: black;
+    font-weight: 100;
+}
+
+a:hover {
+    color: #d1d3ff;
+}
